@@ -36,7 +36,7 @@ public class SystemTest {
 
         RestTemplate restTemplate = new RestTemplate();
 
-        String url = "http://localhost:8080/wrong";
+        String url = "http://localhost:8082/wrong";
 
         try {
             restTemplate.getForEntity(url, String.class);
